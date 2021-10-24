@@ -1,0 +1,205 @@
+.button {
+    border-radius: 1000px;
+}
+
+#customizeButton {
+    background-color: white!important;
+    color: aqua;
+}
+
+.chatitem {
+    padding: 10px;
+    background-color: transparent;
+    max-width: 500px;
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 100px;
+}
+
+#chatList {
+    text-align: center;
+    width: 341px;
+}
+
+#chatInput {
+    width: 300px;
+    text-align: center;
+    border-radius: 100px;
+    line-height: 3;
+    color: aqua;
+}
+
+.newsIMG {
+    width: 0px;
+    max-width: 0px;
+    height: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    object-fit: none;
+    cursor: default;
+    border-radius: 0px;
+}
+
+#newsBody {
+    overflow-y: 0px;
+    overflow-x: 0px;
+    height: 0px;
+    min-width: 0px;
+}
+
+#newsStat {
+    position: 0px;
+    right: 0px;
+    bottom: 0;
+    color: #fff;
+    background: rgb(0 0 0 / 0%);
+    font-size: 0px;
+    line-height: 0px;
+    z-index: 0;
+    padding: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-top-left-radius: 0px;
+    color: rgba(255,255,255,.5);
+}
+
+#newsHed {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 0px;
+    line-height: 0px;
+    text-align: center;
+    background-image: linear-gradient(to right,#fbc02d,#FF6A0B);
+    z-index: 0;
+    padding: 0px;
+    padding-right: 0px;
+    border-top-right-radius: 0px;
+}
+
+#newsHolder {
+    pointer-events: all;
+    padding: 0px;
+    z-index: 0;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: left;
+    font-size: 0px;
+    border-radius: 0px;
+    background-color: rgba(0,0,0,.5);
+}
+
+#streamContainer {
+    pointer-events: all;
+    text-align: none;
+    font-size: 0px;
+    color: rgb(255 255 255 / 0%);
+    background-color: rgba(0,0,0,.5);
+    padding: 0px;
+    border-radius: 0px;
+    min-width: 0px;
+}
+
+.streamItem {
+    margin-top: 0;
+    cursor: default;
+    pointer-events: none;
+}
+
+.youNewDiv {
+    margin-top: 0px;
+    color: #fff;
+    background-color: rgba(0,0,0,.5);
+    padding: 0px;
+    border-radius: 0px;
+    min-width: 0px;
+    cursor: default;
+    pointer-events: all;
+}
+
+#helpTxtHol {
+    display: none;
+    vertical-align: top;
+    color: #fff;
+    margin-left: 0px!important;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+#helpPIcon {
+    width: 0px;
+    height: 0px;
+    margin-top: -0px;
+    margin-left: -0px;
+    margin-bottom: -0px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 0px;
+}
+
+#updateAdIcon {
+    display: inline-block;
+    color: #fff;
+    line-height: 0px;
+    width: 0px;
+    height: 0px;
+    text-align: center;
+    margin-top: -0px;
+    margin-left: -0px;
+    margin-bottom: -0px;
+    border-radius: 0px;
+    background-image: url(../img/news.png);
+    background-size: cover;
+}
+
+* {
+    outline: none;
+    font-family: gamefont;
+    color: #35353500;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#weapDisplay {
+    bottom: 150px;
+    right: 20px;
+}
+
+.weapItem {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.weapIcon {
+    filter: brightness(var(--weapon-icon-brightness)) drop-shadow(2px 2px var(--accent)) drop-shadow(-2px -2px var(--accent)) drop-shadow(-2px 2px var(--accent)) drop-shadow(2px -2px var(--accent)) drop-shadow(4px 4px 0px var(--accent));
+    opacity: 0 !important;
+    transition-duration: 0.25s;
+    height: 0;
+    width: 160px;
+}
+
+.weapIcon[style*="1"] {
+    opacity: 1 !important;
+    height: 80px;
+}
+
+#weapIconMel {
+    margin: 0 !important;
+}
+
+.weapKey {
+    display: none;
+}
+
+#newsHolder, #tlInfHold, #seasonLabel, #aHolder, #termsInfo,
+#editorBtnM, #onetrust-consent-sdk, #voiceDisplay, #mapInfo {
+    visibility:hidden!important;
+    display:none!important;
+}
